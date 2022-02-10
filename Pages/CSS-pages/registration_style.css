@@ -37,7 +37,7 @@ background: #0068c5;
     bottom: 0;
     height: 3px; 
     width: 30px;
-    background: linear-gradient(135deg,#2d5795, #21130d);
+    background: linear-gradient(135deg,#0068c5, #5c9bd3);
 }
 
 
@@ -153,12 +153,12 @@ form .button input{
     border-radius: 5px;
     letter-spacing: 1px;
 
-    background: linear-gradient(135deg, #2d5795, #21130d);
+    background: linear-gradient(135deg, #0068c5, #5c9bd3);
 }
 
 
 form .button input:hover{
-    background: linear-gradient(-135deg, #2d5795, #21130d);
+    background: linear-gradient(-135deg, #0068c5, #5c9bd3);
 }
 
 
