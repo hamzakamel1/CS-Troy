@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+table, th, td{
+    border: 1px solid white;
+    position: relative;
+    margin-left: 80px;
+    border-collapse: collapse;
+}
+
