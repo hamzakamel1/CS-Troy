@@ -1,2 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+}
+
+
+ul {
+    background: #0068c5;
+    padding: 20px;
+    margin-top: 50px;
+    list-style-type: none;
+  }
+
+
+  h1{
+      position: relative;
+      margin-top: 250px;
+      text-align: center;
+  }
+  
+
+  ul li {
+    background: #d7e7fa;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }  
+
+
+  
 
 
