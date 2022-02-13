@@ -5,7 +5,8 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),  url(../background.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;  
+    background-position: center; 
+    max-height: fit-content; 
 }
 
 
@@ -36,7 +37,7 @@ transform: translate(-50%, -50%);
     border-radius: 3px;
     cursor: pointer;
     transition:0.5s ease;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .click-me:hover{
@@ -49,9 +50,10 @@ opacity: 0;
 visibility: hidden;
 width: 400px;
 height: 350px;
-background: white;
+background: black;
 border-radius: 3px;
 box-shadow: 0 2px 12px o rgba(0,0,0,0.4);
+max-height: fit-content;
 }
 
 #click:checked ~ .content{
@@ -100,6 +102,7 @@ p{
     padding: 8px 10px;
     font-size: 18px;
     cursor: pointer;
+    max-height: fit-content;
 }
 
 .close-btn:hover{
@@ -130,6 +133,7 @@ p{
     height: auto;
     margin-top: 15px;
     margin-left: 10px;
+    max-height: 100%;
 }
 
 

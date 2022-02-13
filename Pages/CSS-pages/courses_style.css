@@ -16,7 +16,7 @@
 }
 
 
-ul {
+ol {
     background: #0068c5;
     padding: 20px;
     margin-top: 50px;
@@ -31,7 +31,7 @@ ul {
   }
   
 
-  ul li {
+  ol li {
     background: #d7e7fa;
     margin: 10px;
     font-size: 20px;
@@ -39,6 +39,42 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
   }  
+
+
+
+  ul{
+    float: right;
+    list-style-type: none;
+    position: absolute;
+    top: 110px;
+    right: 30px;
+ 
+}
+
+
+ul li{
+    display: inline-block;
+    color: #0068c5;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #0068c5;
+    padding: 5px 40px;
+    border: 2px solid transparent ;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #0068c5;
+    color: white;
+}
+
+ul li.active a{
+    background-color: #0068c5;
+    color: white;
+}
 
 
   
